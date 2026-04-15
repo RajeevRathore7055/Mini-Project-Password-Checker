@@ -3,7 +3,7 @@ from sqlalchemy.orm import relationship
 from database import Base
 from datetime import datetime
 
-
+# used for changing the time history in super admin section 
 class ScanHistory(Base):
     __tablename__ = 'scan_history'
 
