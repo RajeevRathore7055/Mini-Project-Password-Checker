@@ -9,6 +9,8 @@ from models.user import User
 import os
 from dotenv import load_dotenv
 
+# main function to load the file from the enviroment variable
+
 load_dotenv()
 
 SECRET_KEY    = os.getenv('JWT_SECRET_KEY', 'dev-jwt-secret')
