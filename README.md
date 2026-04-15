@@ -108,7 +108,7 @@ Double-click start.bat
 
 | Name | Password | Role |
 |------|----------|------|
-| Super Admin | Admin@123 | superadmin |
+| Super Admin | SuperAdmin@123 | superadmin |
 | Admin | Admin@123 | admin |
 
 ---
