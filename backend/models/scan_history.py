@@ -30,5 +30,5 @@ class ScanHistory(Base):
             'entropy':       round(self.entropy, 2),
             'is_breached':   self.is_breached,
             'breach_count':  self.breach_count,
-            'scanned_at':    self.scanned_at.strftime('%Y-%m-%d %H:%M:%S')
+            'scanned_at':    self.scanned_at.strftime('%Y-%m-%d')
         }
