@@ -76,6 +76,7 @@ export default function Analyzer() {
           {user ? `logged in as ${user.name} — scans are saved` : 'guest mode — scans not saved'}
         </div>
 
+
         {/* Input */}
         <div className="form-group">
           <label className="form-label">ENTER PASSWORD</label>
